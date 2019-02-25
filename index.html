@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>SCSS Webpack Demo App</title>
+    <link rel="stylesheet" type="text/css" href="./scss/main.scss">
+</head>
+
+<body>
+  
+<!-- this is the top most navigation bar containing href and logo -->
+    <div class="topcontainer">
+        <div class="item1"><div class="logo"></div></div>
+        <div class="item2">FACEBOOK</div>
+        <div class="item3">YOUTUBE</div>  
+        <div class="item4">INSTAGRAM</div>
+        <div class="item5"></div>
+        <div class="item6"><nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">National</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Weather</a></li>
+                <li><a href="#">Opinion</a></li>
+            </ul>
+        </nav></div>
+        <div class="item7 search"></div>
+</div>
+<!-- this is the overall div for all elements on the left -->
+<div class="rightdiv">
+    <!-- this is the stock exchange div -->
+<div class="sidecontainer1">
+    <div class="stockleft">DOLLAR</div>
+    <div class=""></div>
+    <div class="stockright">29 FEB 2016</div>  
+    <div class="stockleft">SINGAPORE</div>
+    <div class="">1.40822 SDG</div>
+    <div class="stockred stockright">-0.0048</div>
+    <div class="stockleft">MALAYSIA</div>
+    <div class="">4.22221 MYR</div>
+    <div class="stockgreen stockright">+0.0005</div>
+    <div class="stockleft">INDONESIA</div>
+    <div class="">13,261.36 IDR</div>
+    <div class="stockred stockright">-0.00023</div>
+    <div class="stockleft">YUAN</div>
+    <div class="">6.52799 CNY</div>
+    <div class="stockgreen stockright">+0.00015</div>
+    <div class="stockleft">EURO</div>
+    <div class="">0.907696 EUR</div>
+    <div class="stockred stockright">-0.00058</div>
+</div>
+<br>
+<!-- this is the international section div -->
+<div class="sidecontainer2">
+<div class="side1">INTERNATION NEWS <br><hr class = "new"></div>
+<div class="side2"></div>
+<div>6th FEB
+    <br><br><font size=2><b>Car bomb explodes in somalia,<br>10 people killed</b></font>
+</div>
+<div class="side4"></div>
+<div>6th FEB
+    <br><br><font size=2><b>Vatican clarifies pope Fransis on issue of 'sexual slavery' of nuns</b></font>
+</div>
+<div class="side6"></div>
+<div>6th FEB
+    <br><br><font size=2><b>Basically everything Trump said about the ecomony was a lie</b></font>
+  
+</div>
+<div class="side8">  <hr class = "new">Read More News</div>
+</div>
+<br>
+<!-- this is the sports section div -->
+<div class="sidecontainer2">
+<div class="side1">SPORTS NEWS <br><hr class = "new"></div>
+<div class="side2_2"></div>
+<div>6TH FEB
+    <br><br><font size=2><b>LeBron James benchgate is here and it sure looks bad</b></font>
+</div>
+<div class="side2_4"></div>
+<div>6TH FEB
+    <br><br><font size=2><b>National Signing Day : Tracking Top 15 CFB Recruits</b></font>
+</div>
+<div class="side2_6"></div>
+<div>6TH FEB
+    <br><br><font size=2><b>Lakers pull out of Anthony Davis trade talks with Pelicans</b></font>
+</div>
+<div class="side8"> <hr class = "new">Read More News</div>
+</div>
+</div>
+
+<div class="wrapper">
+        <div class="box1">
+<!-- this is the middle div with all the news thumbnails
+each of the divs inside this represent a thumbnail and context -->
+
+            <div class="imageclass">
+                    <div class="content1 font-2">
+                       <span><b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</b><br> Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</span><br>
+                    </div>
+                        <div class="content2">
+                            <b>Featured</b>
+                        </div>
+                    </div>
+            </div>
+        <div class="box2">
+            <div class="img1_2">
+                    <div class="content_date">
+                            <b>24 June</b>
+                        </div>
+             </div>
+             <div class="content1_2 font-2">
+                <b>On the other hand, we denounce with righteous indignation and dislike men</b> Who are so beguiled and demoralized The charms of pleasure of the moment.
+             </div>
+             
+        </div>
+        <div class="box2">
+                <div class=img1_3>
+                        <div class="content_date">
+                                <b>24 June</b>
+                            </div>
+                    </div>
+                    <div class="content1_2 font-2">
+                       <b> In a free hour, when our power of choice is untrammelled </b> when nothing prevents our being able to do what we like best, every pleasure is to be welcomed.
+                    </div>
+                    
+        </div>
+        <div class="box2">
+                <div class=img1_4>
+                        <div class="content_date">
+                                <b>24 June</b>
+                            </div>
+                    </div>
+                    <div class="content1_2 font-2">
+                       <b> Loves or pursues or desires to obtain pain of itself</b><br> Because it is pain, but because occasionally circumstances occur in toil.
+                    </div>
+                   
+        </div>
+        <div class="box2">
+                <div class=img1_5>
+                        <div class="content_date">
+                                <b>24 June</b>
+                            </div>
+                    </div>
+                    <div class="content1_2 font-2">
+                      <b> The wise man therefore always holds in these matters to this principle</b> <br> He rejects pleasures to secure other greater pleasures, or else endures pains.
+                    </div>
+                  
+        </div>
+    </div>
+    <!-- Bottom part wich conatins the news -->
+    <div class = "bottom-grid-container">
+            <div>
+                <div class ="imgbottom">
+                    <div class ="content_date_bottom">
+                        <b>TECH</b>
+                    </div>
+                </div>
+            <div class ="bcontent">
+                -Ride the worlds most mysterious commute <br>
+                -How the tech industry has developed    <br>
+                -Telsa develops a 0-100mph in 2.3secs<br>
+                -Apple shares drop by 220bn$
+            </div>
+    
+            </div>
+    
+            <div>
+            <div class = "imgbottom2">
+                <div class = "content_date_bottom"><b>HEALTH</b>
+                </div>
+            </div>
+            <div class = "bcontent">
+                -Antitumor protein can promote cancer<br>
+                -A light-activated metal destroy cancer cells<br>
+                -Man loses nose and mouth in bear attack
+    
+            </div>
+            </div>
+           
+    
+            <div>
+                <div class ="imgbottom3">
+                    <div class = "content_date_bottom"><b>BUSINESS</b></div>
+                </div>
+            
+                <div class = "bcontent">
+                    -Uber hacked in 2016, 57m users exposed<br>
+                    -China is winning electric cars "arms" care<br>
+                    -London buses are powered by a new fuel<br>
+                    -Zuckerberg is no longer king of social<br>
+                </div>
+            </div>
+        </div>
+        <!--ads div-->
+        <div class = "ads">
+                <div>
+                    <div class = "imgad2">
+                    </div>
+                
+                </div>
+                <div>
+                        <div class = "imgad1">
+                        </div>
+                    
+                    </div>
+                
+            
+            </div>
+            <!--end of the page footer grid-->
+            <div class = "end-grid-container">
+                <div>
+                <div class = "square">
+                    Terms of use &emsp; About us &emsp; Privacy Policy &emsp; Cookies &emsp; Accesibility Help &emsp; Advertise with us
+                </div>
+                </div>
+            
+                <div>
+                <div class = "square2">
+                    Copyright © 2017 The News Portal. We are responsible for content of external sites.Read about our approach to external linking.<br>
+                    <div class = "logos-grid-container">
+                        <div class="logo1"></div>
+                        <div class="logo2"></div>
+                        <div class="logo3"></div>
+                        <div class="logo4"></div>
+                        <div class="logo5"></div>
+            
+                    </div>
+                    </div></div>
+                    
+                
+            </div>
+</body>
+</html>

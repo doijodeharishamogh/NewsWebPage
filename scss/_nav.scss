@@ -1,0 +1,85 @@
+@import "_variables.scss";
+//This div is the top nav bar
+//contains divs for images used 
+.topcontainer {
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2px;
+    background-color: rgba(171, 176, 182, 0.5);
+    padding-bottom: 1px;
+    > div{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    .item2{
+      grid-column: 5/ 12;
+      text-align: right;
+      padding-right: 2%;
+      color: $brand-color;
+      font-weight: bold;
+    }
+    .item3{
+      color: $youtubered;
+      font-weight: bold;
+    }
+    .item4{
+      color: $instagramviolet;
+      font-weight: bold;
+    }
+  
+    .item6{
+      grid-column: 5/ 12;
+      padding-bottom: 2px;
+    }
+  
+    .item7{
+      grid-column: 12/ 15;
+      background-image:url('./../src/images/search.png');
+      background-repeat:no-repeat;
+      background-size: 12%;
+      background-position: center;
+    }
+  }
+  
+  .item1{
+    grid-column: 1 / 5;
+    grid-row: 1 / span 2;
+    .logo{
+      position: absolute;
+      left: 12%;
+      top: 1.4%;
+      width: 10%;
+      height: 16%;
+      background-image:url('./../src/images/cnn.jpg');
+      background-repeat:no-repeat;
+      background-size: 80%;
+  }
+  
+}
+
+.main-nav{
+  ul{
+    width: 100%;
+    list-style-type: none;
+    margin-top: -2.2%;
+    margin-left: -5%;
+
+  }
+  li{
+    float: left;
+    width: 14%;
+    
+  }
+  a{
+    align-items: center;
+    color: $navfont;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+}
